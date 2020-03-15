@@ -14,5 +14,7 @@ class CreateCostumes < ActiveRecord::Migration[5.2]
       t.string :name
     end
     add_column :costumes, :price, :integer
+    add_column :costumes, :size, :integer
+    add_column :costumes, :image, :integer
   end
 end
